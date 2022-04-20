@@ -11,7 +11,8 @@ const Download = () => {
           <h1 className={`${styles.h1Text} ${styles.blackText}`}>Download the Source Code</h1>
           <p className={`${styles.pText} ${styles.blackText}`}>get the full source code on gitHub</p>
         </div>
-        <button className={styles.btnPrimary}>Source Code</button>
+          
+         <a target="_blank" href="https://github.com/amanycloud/NFTFinder" rel="noreferrer"><button className={styles.btnPrimary}>Source Code</button></a>
         <div className={styles.flexCenter}>
           <img src={assets.scene} alt="scene assets" className={styles.fullImg} />
         </div>
